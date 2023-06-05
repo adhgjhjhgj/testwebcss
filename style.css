@@ -23,21 +23,20 @@ body {
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(20, 34, 231);
   position: sticky;
   top: 0;
-}
+} /*Otázka č. 6*/
 
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: rgb(27, 7, 209);
+  color: rgb(241, 241, 247);
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
-} /*Otázka č. 6 */
-/* Otázka č. 4 */
+} /* Otázka č. 4 */
 
 /* Right-aligned link */
 .navbar a.right {
@@ -53,7 +52,7 @@ body {
 /* Active/current link */
 .navbar a.active {
   background-color: rgb(49, 17, 230);
-  color: white;
+  color: rgb(253, 253, 253);
 }
 
 /* Column container */
@@ -65,7 +64,7 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #eeedf3;
+  background-color: #eeeef0;
   padding: 20px;
 }
 
