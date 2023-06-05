@@ -92,9 +92,9 @@ body {
 .post {
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgb(233, 22, 22);
   border: 1px solid #ccc;
-}
+} /* Otázka č.10 */
 
 /* Styles for the post heading */
 .post h2 {
