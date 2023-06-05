@@ -34,9 +34,10 @@ body {
   display: block;
   color: rgb(27, 7, 209);
   text-align: center;
-  padding: 14px 20px;
+  padding: 30px 30px;
   text-decoration: none;
 } /*Otázka č. 6 */
+/* Otázka č. 4 */
 
 /* Right-aligned link */
 .navbar a.right {
@@ -45,13 +46,13 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: rgb(239, 239, 245);
   color: black;
 }
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
+  background-color: rgb(49, 17, 230);
   color: white;
 }
 
@@ -64,7 +65,7 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #eeedf3;
   padding: 20px;
 }
 
